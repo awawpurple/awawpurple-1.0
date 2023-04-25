@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Desktop.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Awaw Purple</title>
+</head>
+<body>  
+<div id="panel">
+    <nav>
+    <ul id="mainpanel" onclick="HideProject();">
+       <div class="ri">
+        <div id="logo"><img id="logopct" src="Logo.png"></div>
+        <li id="name" style="color: rgb(71,68,158);" onclick="MainPage(); SetMainContent(1);">Welcome
+        <div class="slider" id="sliderMain"></div>
+        </li>
+    </div>
+       <div class="le">
+        <li id="myself" onclick="Myself(); SetMainContent(2);" >About me
+        <div class="slider" id="sliderMyself"></div>
+        </li>
+        <li id="pro" onclick="Projects(); SetMainContent(3);">Projects
+        <div class="slider" id="sliderProjects"></div>
+        </li>
+        <li id="social" onclick="Contact(); SetMainContent(4);">Contact
+        <div class="slider" id="sliderContact"></div>
+        </li>
+    </div>
+    </ul>
+    </nav>
+</div>
+<div id="background"><img id="logopct2" src="Logo2.png"></div>
+<div id="background2"><img id="logopct3" src="Logo2.png"></div> 
+    <main id="maincontent">
+        <header id="header">Welcome</header>
+        <section id="section">This website is a summary of all the work I've done so far and what am I currently doing.
+        I wanted to create a sort of user-friendly database where all my projects can be seen. 
+        If you encounter any problems with the website, be sure to contact me.<br> Thank You for visiting.
+        </section>
+    </main>
+    <div id="ProjectDesc"></div>     
+</body>
+</html>

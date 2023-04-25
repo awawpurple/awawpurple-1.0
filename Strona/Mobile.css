@@ -1,0 +1,200 @@
+@media(orientation: portrait){
+body {
+    overflow: hidden;
+    position: fixed; 
+    background-color: black;
+    margin: 0;
+}
+#panel
+{
+    display: flex;
+    background-color: rgb(33, 33, 33);
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}   
+#mainpanel
+{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+}
+#panel li
+{
+    height:8vh;
+    padding-top: 4vh;
+    font-size: large;
+    font-family: Arial;
+    color: rgb(254, 254, 254);
+    list-style: none;
+    transition: all 0.5s;  
+}
+.ri
+{
+    margin-left: -8vw;
+    height: 3vh;
+    display: flex;
+    padding-right: 5vw;
+}
+.le
+{
+    height: 3vh;
+    display: flex;
+}
+#pro
+{
+    float: left;
+    margin-left: 2vw;
+}
+#social
+{
+    float: left;
+    margin-left: 2vw;
+}
+#panel li:hover
+{
+    scale: 1.1;
+    color: rgb(162, 160, 176);
+    cursor: pointer;
+}
+#panel li:active
+{
+    color: rgb(71,68,158);
+}
+.slider
+{
+    height: 0.5vh;
+    width: 18vw;
+    background-color: rgb(71,68,158);
+    margin-top: 2.6vh;
+    display: none;
+}
+#logopct
+{
+    display: none;
+}
+#logopct2
+{
+   display: none;
+}
+#logopct3
+{
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: -25svh;
+    height: 90vh;
+    transform:rotate(0);
+    transition: all 1.5s;  
+	z-index: -1;
+}
+#maincontent
+{
+    height: 60vh;
+    width: 85vw;
+    background-color: rgb(33, 33, 33);
+    margin-left: 7.5vw;
+    margin-top: 10vh;
+    border-radius: 5vw 5vw 5vw 5vw ;
+    transition: all 0.5s;
+    opacity: 0.9;  
+}
+#maincontent header
+{
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-size: 7vw;
+    padding-top: 1vw; 
+    font-family: Arial;
+}
+#maincontent section
+{
+    color: rgb(254, 254, 254);
+    padding-left: 5vw; padding-right: 5vw; padding-top: 3vh;
+    font-size: 4vw;
+    text-align: center; 
+}
+.ProjectTable
+{
+    height:auto;
+    width: 100%;
+    border-spacing: 2vw;
+}
+.pr
+{
+    height:25vh;
+    background-color: rgb(162, 160, 176);
+    border-radius: 5vw 5vw 5vw 5vw ;
+    width: 20vw;
+}
+.pr:hover
+{
+    cursor: pointer;
+
+}
+.pr:hover .ProFoot
+{
+    background-color: rgba(0,0,0,1);
+}
+.ProFoot
+{
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+    border-radius: 0 0 5vw 5vw ;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: 15vh;
+    transition: all 0.5s;  
+}
+#P1
+{
+    background-image: url("Intimidated.png");
+    background-position: -10vw;
+}
+#P2
+{
+    background-image: url("Logopct.png");
+    background-position: -10vw;
+}
+#P3
+{
+    background-image: url("Resolve.png");
+    background-position: -4vw;
+}
+#P4
+{
+     background-image: url("Zombies.png");
+    background-position: -4vw;
+}
+#ProjectDesc{
+    position: absolute;
+    display: none;
+    height: auto;
+    width: 90vw;
+    background-color: rgba(0,0,0,0.9);
+    color: rgb(254, 254, 254);
+    text-align: center;
+    font-family: Arial;
+    border-radius: 3vw;
+    font-size: 24px;
+    margin-top: -70vh;
+    margin-left: 5vw;
+}
+.ContactTable
+{
+    border-radius: 5vw 5vw 5vw 5vw ;
+    height: 30vh;
+    width: 100%;
+}
+#YT
+{
+    cursor: pointer;
+    height: 10vh;
+    transition: all 0.5s;
+}
+#YT:hover
+{
+    scale: 1.3;  
+}
+}
